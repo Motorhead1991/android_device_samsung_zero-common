@@ -37,6 +37,10 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53.a57
 
+# Workaround for non-working incall/callspeaker-mic
+RIL_SET_CALL_CLOCK_SYNC_WORKAROUND := true
+RIL_SET_TWO_MIC_CONTROL_WORKAROUND := true
+
 # Binder
 TARGET_USES_64_BIT_BINDER := true
 
