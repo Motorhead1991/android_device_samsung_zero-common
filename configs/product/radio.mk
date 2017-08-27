@@ -18,6 +18,10 @@
 PRODUCT_PACKAGES += \
 	libxml2 \
 	libprotobuf-cpp-full \
+	rild \
+	libreference-ril \
+	libril \
+	libsec-ril-wrapper \
 	libsecril-client \
 	libsecril-client-sap \
 	android.hardware.radio@1.0 \
