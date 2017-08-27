@@ -16,4 +16,9 @@
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0-impl
+    android.hardware.bluetooth@1.0-impl \
+    libbt-vendor
+
+# [TEMP] Disable Bluetooth
+PRODUCT_PROPERTY_OVERRIDES += \
+	config.disable_bluetooth=true
