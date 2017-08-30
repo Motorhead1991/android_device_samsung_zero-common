@@ -16,7 +16,8 @@
 
 LOCAL_PATH := device/samsung/zero-common
 
-BOARD_VENDOR := samsung
+# Do not set vendor to not automatically include hardware/samsung
+BOARD_VENDOR :=
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
