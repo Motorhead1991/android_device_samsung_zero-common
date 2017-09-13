@@ -21,6 +21,9 @@ BOARD_VENDOR := samsung
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
+# Enable SDCLANG
+TARGET_USE_SDCLANG := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
